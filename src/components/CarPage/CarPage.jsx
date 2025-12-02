@@ -452,7 +452,7 @@ const CarPage = () => {
                       </div>
                       <div className="flex items-center gap-2 p-2 rounded-lg bg-white/5 border border-white/5">
                         <FaTachometerAlt className="text-green-400" />
-                        <span className="text-xs text-gray-300 font-medium">{car.mileage ? `${car.mileage} kmpl` : "—"}</span>
+                        <span className="text-xs text-gray-300 font-medium">{car.mileage ? `${car.mileage} ` : "—"}</span>
                       </div>
                       <div className="flex items-center gap-2 p-2 rounded-lg bg-white/5 border border-white/5">
                         <FaShieldAlt className="text-purple-400" />

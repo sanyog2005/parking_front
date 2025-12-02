@@ -429,7 +429,7 @@ const HomeCars = () => {
                       },
                       {
                         icon: Gauge,
-                        value: car.mileage ? `${car.mileage} kmpl` : "—",
+                        value: car.mileage ? `${car.mileage} Hours` : "—",
                         label: "Mileage",
                       },
                       {
