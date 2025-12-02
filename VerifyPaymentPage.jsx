@@ -34,7 +34,7 @@ const VerifyPaymentPage = () => {
       try {
         setStatusMsg("Confirming payment with server...");
 
-        const API_BASE = "http://localhost:1000";
+        const API_BASE = "https://parking-backend-3tgb.onrender.com";
         const res = await axios.get(`${API_BASE}/api/payments/confirm`, {
           params: { session_id },
           headers: token ? { Authorization: `Bearer ${token}` } : {},

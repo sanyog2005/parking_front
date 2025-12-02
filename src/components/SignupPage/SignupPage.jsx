@@ -41,7 +41,7 @@ const SignupPage = () => {
 
     setLoading(true);
     try {
-      const base = "http://localhost:1000";
+      const base = "https://parking-backend-3tgb.onrender.com";
       const url = `${base}/api/auth/register`;
 
       const res = await axios.post(url, formData, {

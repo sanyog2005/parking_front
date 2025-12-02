@@ -32,7 +32,7 @@ const CarPage = () => {
   const [search, setSearch] = useState(""); // <--- NEW SEARCH STATE
 
   const abortControllerRef = useRef(null);
-  const base = "http://localhost:1000";
+  const base = "https://parking-backend-3tgb.onrender.com";
   const limit = 12;
   const fallbackImage = `${base}/uploads/default-car.png`;
 

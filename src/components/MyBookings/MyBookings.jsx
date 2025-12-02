@@ -18,7 +18,7 @@ import {
   FaParking,
 } from "react-icons/fa";
 
-const API_BASE = "http://localhost:1000";
+const API_BASE = "https://parking-backend-3tgb.onrender.com";
 const TIMEOUT = 15000;
 
 // ---------- Helpers (UNCHANGED) ----------

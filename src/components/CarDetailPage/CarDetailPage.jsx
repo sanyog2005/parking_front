@@ -26,7 +26,7 @@ import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
 import carsData from "../CarPage/carsData";
 
-const API_BASE = "http://localhost:1000";
+const API_BASE = "https://parking-backend-3tgb.onrender.com";
 const api = axios.create({
   baseURL: API_BASE,
   headers: { Accept: "application/json" },
